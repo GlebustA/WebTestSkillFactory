@@ -181,11 +181,6 @@ public class StepDefinitions {
 
     }
 
-    @Then("assert that a course Marketing Analyst is present in the tab marketing {string}")
-    public void assert_that_a_course_marketing_analyst_is_present_in_the_tab_marketing(String expectedTitle) {
-        pageObjectTab.assert_that_a_course_targetologist_is_present_in_the_tab_marketing(expectedTitle);
-    }
-
     @Then("click on the tab design")
     public void click_on_the_tab_design() {
         pageObjectTab.click_on_the_tab_design();
