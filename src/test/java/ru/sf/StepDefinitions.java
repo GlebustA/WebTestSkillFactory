@@ -191,19 +191,19 @@ public class StepDefinitions {
         pageObjectTab.click_on_the_tab_design();
     }
 
-    @Then("assert that a Course UX UI designer from scratch to PRO is present in the tab marketing {string}")
-    public void assert_that_a_course_ux_ui_designer_from_scratch_to_pro_is_present_in_the_tab_marketing(String expectedTitle) {
-       pageObjectTab.assert_that_a_course_ux_ui_designer_from_scratch_to_pro_is_present_in_the_tab_marketing(expectedTitle);
+    @Then("assert that a Course UX UI designer from scratch to PRO is present in the tab design {string}")
+    public void assert_that_a_course_ux_ui_designer_from_scratch_to_pro_is_present_in_the_tab_design(String expectedTitle) {
+       pageObjectTab.assert_that_a_course_ux_ui_designer_from_scratch_to_pro_is_present_in_the_tab_design(expectedTitle);
     }
 
-    @Then("assert that a Course Graphic designer from scratch to PRO is present in the tab marketing {string}")
-    public void assert_that_a_course_graphic_designer_from_scratch_to_pro_is_present_in_the_tab_marketing(String expectedTitle) {
-        pageObjectTab.assert_that_a_course_graphic_designer_from_scratch_to_pro_is_present_in_the_tab_marketing(expectedTitle);
+    @Then("assert that a Course Graphic designer from scratch to PRO is present in the tab design {string}")
+    public void assert_that_a_course_graphic_designer_from_scratch_to_pro_is_present_in_the_tab_design(String expectedTitle) {
+        pageObjectTab.assert_that_a_course_graphic_designer_from_scratch_to_pro_is_present_in_the_tab_design(expectedTitle);
     }
 
-    @Then("assert that a Course Motion designer from scratch to PRO is present in the tab marketing {string}")
-    public void assert_that_a_course_motion_designer_from_scratch_to_pro_is_present_in_the_tab_marketing(String expectedTitle) {
-        pageObjectTab.click_on_the_tab_marketing();
+    @Then("assert that a Course Motion designer from scratch to PRO is present in the tab design {string}")
+    public void assert_that_a_course_motion_designer_from_scratch_to_pro_is_present_in_the_tab_design(String expectedTitle) {
+        pageObjectTab.assert_that_a_course_motion_designer_from_scratch_to_pro_is_present_in_the_tab_design(expectedTitle);
     }
 
 

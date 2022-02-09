@@ -73,21 +73,21 @@ public class PageObjectTab {
     }
 
 
-    public void assert_that_a_course_ux_ui_designer_from_scratch_to_pro_is_present_in_the_tab_marketing(String expectedTitle) {
+    public void assert_that_a_course_ux_ui_designer_from_scratch_to_pro_is_present_in_the_tab_design(String expectedTitle) {
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
         final var actualTitle = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@field='st_title__931572920051']"))).getText();
         assertEquals(expectedTitle, actualTitle);
     }
 
 
-    public void assert_that_a_course_graphic_designer_from_scratch_to_pro_is_present_in_the_tab_marketing(String expectedTitle) {
+    public void assert_that_a_course_graphic_designer_from_scratch_to_pro_is_present_in_the_tab_design(String expectedTitle) {
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
         final var actualTitle = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@field='st_title__234799977111']"))).getText();
         assertEquals(expectedTitle, actualTitle);
     }
 
 
-    public void assert_that_a_course_motion_designer_from_scratch_to_pro_is_present_in_the_tab_marketing(String expectedTitle) {
+    public void assert_that_a_course_motion_designer_from_scratch_to_pro_is_present_in_the_tab_design(String expectedTitle) {
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
         final var actualTitle = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@field='st_title__825744425001']"))).getText();
         assertEquals(expectedTitle, actualTitle);

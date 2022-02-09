@@ -67,10 +67,6 @@ Feature: Checking if the title of the page with the course is correct
     Given url of site SkillFactory 'https://skillfactory.ru/'
     Then assert that button present profession manual testing engineer
 
-  Scenario: Check if the button is present profession manual testing engineer
-    Given url of site SkillFactory 'https://skillfactory.ru/'
-    Then assert that button present profession manual testing engineer
-
   Scenario: Checking if there is a course on creating sites without code in the no-code tab
     Given url of site SkillFactory 'https://skillfactory.ru/'
     Then click on the button all courses
@@ -99,19 +95,19 @@ Feature: Checking if the title of the page with the course is correct
     Given url of site SkillFactory 'https://skillfactory.ru/'
     Then click on the button all courses
     Then click on the tab design
-    And assert that a Course UX UI designer from scratch to PRO is present in the tab marketing 'Курс «UX/UI-дизайнер с нуля до PRO»'
+    And assert that a Course UX UI designer from scratch to PRO is present in the tab design 'Курс «UX/UI-дизайнер с нуля до PRO»'
 
   Scenario: Checking if there is a course Marketing Analyst in the design tab
     Given url of site SkillFactory 'https://skillfactory.ru/'
     Then click on the button all courses
     Then click on the tab design
-    And assert that a Course Graphic designer from scratch to PRO is present in the tab marketing 'Курс «Графический дизайнер с нуля до PRO»'
+    And assert that a Course Graphic designer from scratch to PRO is present in the tab design 'Курс «Графический дизайнер с нуля до PRO»'
 
   Scenario: Checking if there is a course Marketing Analyst in the design tab
     Given url of site SkillFactory 'https://skillfactory.ru/'
     Then click on the button all courses
     Then click on the tab design
-    And assert that a Course Motion designer from scratch to PRO is present in the tab marketing 'Курс «Моушн-дизайнер с нуля до PRO»'
+    And assert that a Course Motion designer from scratch to PRO is present in the tab design 'Курс «Моушн-дизайнер с нуля до PRO»'
 
 
 
