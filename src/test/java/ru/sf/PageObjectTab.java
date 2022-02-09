@@ -58,15 +58,8 @@ public class PageObjectTab {
         assertEquals(expectedTitle, actualTitle);
 
     }
-
-
-    public void assert_that_a_course_marketing_analyst_is_present_in_the_tab_marketing(String expectedTitle) {
-        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
-        final var actualTitle = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@field='st_title__245054298531']"))).getText();
-        assertEquals(expectedTitle, actualTitle);
-    }
-
-
+    
+    
     public void click_on_the_tab_design() {
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@data-tab-rec-ids='396372826,396382614,372517798']"))).click();
